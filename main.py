@@ -3,7 +3,7 @@ import sys
 import time
 import requests
 h = [
-    logging.FileHandler("./log.log"),
+    logging.FileHandler("./logs/log.log"),
     logging.StreamHandler(stream=sys.stdout)
 ]
 
